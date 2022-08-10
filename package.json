@@ -1,6 +1,6 @@
 {
   "name": "grundkurs_theme",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A JupyterLab Theme.",
   "keywords": [
     "jupyter",
