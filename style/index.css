@@ -38,3 +38,15 @@ pre {
   background-color: green;
   color: white;
 }
+
+table.keywords tr td code {
+  background-color:transparent;
+}
+
+table.keywords tr td code.new {
+  font-weight: bold;
+}
+
+table.keywords tr td code.known {
+  background-color:lightgreen;
+}
