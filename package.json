@@ -22,7 +22,6 @@
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  
   "repository": {
     "type": "git",
     "url": "https://github.com/Grundkurs-Programmieren/grundkurs_theme.git.git"
@@ -54,7 +53,9 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^3.1.0",
-    "@jupyterlab/apputils": "^3.1.0"
+    "@jupyterlab/apputils": "^3.1.0",
+    "@jupyterlab/notebook": "^3.5.0",
+    "@lumino/coreutils": "^1.12.1"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^3.1.0",
@@ -74,11 +75,12 @@
     "typescript": "~4.1.3"
   },
   "sideEffects": [
-    "style/*.css"],
+    "style/*.css"
+  ],
   "publishConfig": {
     "access": "public"
   },
-  "jupyterlab": { 
+  "jupyterlab": {
     "extension": true,
     "outputDir": "grundkurs_theme/labextension",
     "themePath": "style/index.css"
